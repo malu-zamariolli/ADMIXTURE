@@ -1,0 +1,22 @@
+# Date: 
+dir: panel1_data
+panel: panel1
+ref_samples: "GBR|CEU|TSI|IBS|PEL|MXL|PUR|CLM|ESN|GWD|LWK|MSL|YRI"
+maf_ref: 0.01
+# QC thr for reference panel
+qcmaf: 0.01
+qcgeno: 0.01
+qcmind: 0.01
+qchwe: 0.000001
+# Target sample
+dataset: data
+prune_window: 50
+prune_step: 10
+prune_r2: 0.1
+# Admixture
+Kstart: 3
+Kend: 14 #Plus one from the K of interest, in this case 13
+
+
+
+
